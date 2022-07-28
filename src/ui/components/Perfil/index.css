@@ -1,0 +1,9 @@
+.breadcrumb::before {
+  color: #9e9e9e;
+  vertical-align: middle;
+}
+
+.disabled-link {
+pointer-events: none;
+font-weight: 500;
+}

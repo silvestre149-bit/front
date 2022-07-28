@@ -1,0 +1,27 @@
+.feedback-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.estrelas {
+    display: flex;
+}
+
+.estrela>* {
+    color: #FFD700;
+}
+
+.estrela-apagada>* {
+    color: grey;
+}
+
+#feedback-titulo {
+    text-align: center;
+}
+
+.feedback-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

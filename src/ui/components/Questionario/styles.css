@@ -1,0 +1,22 @@
+#questionario-titulo {
+    text-align: center;
+}
+
+#questionario-submeter {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 30px;
+}
+
+.radio-grupo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.radio-questao {
+    margin-left: 10px;
+}
+
+.alternativa-titulo {
+    font-size: x-large;
+}

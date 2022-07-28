@@ -1,0 +1,42 @@
+.select-options-small {
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+    border: 0.05em solid #9E9E9E;
+    color: #9E9E9E;
+    background-color: white;
+    border-radius: 5%;
+}
+
+.custom-select-small {
+    position: relative;
+}
+
+.custom-arrow-small {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    background-color: #D50000;
+    height: 100%;
+    width: 1.5rem;
+    pointer-events: none;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border: 0.05em solid #9E9E9E;
+}
+
+.custom-arrow-small::before,
+.custom-arrow-small::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.custom-arrow-small::before {
+    border-left: 0.3em solid transparent;
+    border-right: 0.3em solid transparent;
+    border-top: 0.3em solid white;
+}

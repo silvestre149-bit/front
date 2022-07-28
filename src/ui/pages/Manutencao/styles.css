@@ -1,0 +1,8 @@
+#manutencao {
+    display: flex;
+    justify-content: center;
+}
+
+#manutencao-icone {
+    font-size: larger;
+}
